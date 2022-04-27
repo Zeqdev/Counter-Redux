@@ -6,4 +6,85 @@
 
 body {
 	font-family: sans-serif;
+
+	height: 100vh;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.container {
+	height: 500px;
+	width: 500px;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.title {
+	font-size: 4rem;
+
+	background: linear-gradient(#fca962, #fc62c5);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	color: transparent;
+
+	margin-bottom: 20px;
+}
+
+.counter {
+	font-size: 3rem;
+}
+
+.buttons {
+	height: 40px;
+	width: 100%;
+
+	display: flex;
+	margin-top: 20px;
+}
+
+.increment {
+	font-size: 1.5rem;
+
+	border: 1px solid black;
+	border-radius: 5px;
+	background: none;
+	cursor: pointer;
+
+	height: 100%;
+	width: 30%;
+
+	margin: 0 auto;
+}
+
+.decrement {
+	font-size: 1.5rem;
+
+	border: 1px solid black;
+	border-radius: 5px;
+	background: none;
+	cursor: pointer;
+
+	height: 100%;
+	width: 30%;
+
+	margin: 0 auto;
+}
+
+.reset {
+	font-size: 1.5rem;
+
+	border: 1px solid black;
+	border-radius: 5px;
+	background: none;
+	cursor: pointer;
+
+	height: 100%;
+	width: 30%;
+
+	margin: 0 auto;
 }
